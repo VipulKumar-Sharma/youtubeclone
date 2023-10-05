@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .position {
+            background-color: lightblue;
+            position: absolute;
+            z-index: 1;
+            margin-top: 100px;
+        }
+        .header {
+            background-color: lightpink;
+            position: fixed;
+            height: 40px;
+            left:0px;
+            right: 0;
+            top:0;
+            z-index: 3;
+
+        }
+    </style>
+</head>
+<body style="height: 20000px; padding-top: 100px">
+    <div class="header">
+        header
+    </div>
+    <div class="position">
+        position
+    </div>
+    <div style="background-color: aqua; height: 300px; width: 300px;">div1</div>
+    <div style="background-color: black;color: white; width: 300px; height: 300px;">div2</div>
+</body>
+</html>
